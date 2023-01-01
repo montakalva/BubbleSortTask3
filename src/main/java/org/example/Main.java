@@ -8,9 +8,8 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+        int[] arrayData = {17, 99, 10, 25, 2, 78};
         BubbleSorting bubbleSorting = new BubbleSorting();
-
-        bubbleSorting.sorting();
-
+        bubbleSorting.sorting(arrayData);
     }
 }
